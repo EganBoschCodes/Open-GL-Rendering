@@ -1,2 +1,8 @@
-﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\egan\OneDrive\C++ Projects\OpenGL Rendering\OpenGL\Dependencies\GLFW\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+C:\Users\egan\OneDrive\C++ Projects\OpenGL Rendering\OpenGL\OpenGL\src\main.cpp(82,31): warning C4244: 'argument': conversion from 'long' to 'GLfloat', possible loss of data
+C:\Users\egan\OneDrive\C++ Projects\OpenGL Rendering\OpenGL\OpenGL\src\main.cpp(89,32): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\egan\OneDrive\C++ Projects\OpenGL Rendering\OpenGL\OpenGL\src\main.cpp(93,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\egan\OneDrive\C++ Projects\OpenGL Rendering\OpenGL\OpenGL\src\main.cpp(93,18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   OpenGL.vcxproj -> C:\Users\egan\OneDrive\C++ Projects\OpenGL Rendering\OpenGL\Debug\OpenGL.exe
